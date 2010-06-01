@@ -26,7 +26,7 @@ import System.Syscall.Darwin
 import System.Syscall.FreeBSD
 #endif
 
--- | A unified primitive signature for the sendfile syscall. The number of bytes written and the offset value
+-- | A unified primitive signature for the sendfile syscall.
 c_sendfile :: Fd -> Fd -> COff -> CSize -> IO (Either Errno CSsize)
 c_sendfile ofd ifd o c = do 
   r <- _c_sendfile ofd ifd o c
