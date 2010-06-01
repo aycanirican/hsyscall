@@ -8,7 +8,7 @@ License-file:        LICENSE
 Author:              Aycan iRiCAN
 Maintainer:          aycan.irican@core.gen.tr
 Stability:           Experimental
-Category:            System
+Category:            Foreign
 Build-type:          Simple
 
 -- Extra files to be distributed with the package, such as examples or
